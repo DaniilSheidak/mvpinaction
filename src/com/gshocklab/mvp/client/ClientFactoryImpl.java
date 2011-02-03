@@ -18,28 +18,9 @@ public class ClientFactoryImpl implements ClientFactory {
 	private final IContactsView contactsView = new ContactsView();
 	private final ITasksView tasksView = new TasksView();
 	
-	@Override
-	public EventBus getEventBus() {
-		return eventBus;
-	}
-
-	@Override
-	public PlaceController getPlaceController() {
-		return placeController;
-	}
-
-	@Override
-	public IMailView getMailView() {
-		return mailView;
-	}
-
-	@Override
-	public IContactsView getContactsView() {
-		return contactsView;
-	}
-
-	@Override
-	public ITasksView getTasksView() {
-		return tasksView;
-	}
+	@Override public EventBus getEventBus() { return eventBus; }
+	@Override public PlaceController getPlaceController() { return placeController; }
+	@Override public IMailView getMailView() { return mailView; }
+	@Override public IContactsView getContactsView() { return contactsView; }
+	@Override public ITasksView getTasksView() { return tasksView;}
 }
