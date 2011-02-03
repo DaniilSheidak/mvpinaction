@@ -1,0 +1,6 @@
+.b-app-header {font-family: Verdana; font-size: 16px; font-weight: bold; color: #336699; margin: 10px;}
+.b-app-navigator {padding-top: 30px; padding-left: 20px;}
+.b-app-navigator a {text-decoration: none; font-weight: bold; color: #336699; position: relative; clear: left; float: left; width: 100%; margin-bottom: 15px; padding: 5px 0 5px 15px;}
+.b-app-navigator a:hover { text-decoration: underline;}
+.b-app-navigator .b-current { color: #ffffff; background-color: #336699; -moz-border-radius: 3px 0 0 3px; -webkit-border-radius: 3px 0 0 3px; -o-border-radius: 3px 0 0 3px; border-radius: 3px 0 0 3px;}
+.b-app-content {border: 5px solid #336699; margin: 0 20px 20px 0;}

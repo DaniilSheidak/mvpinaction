@@ -1,0 +1,11 @@
+syntax: glob
+*.class
+*.orig
+*.prefs
+
+syntax: regexp
+^war/mvpinaction
+^war/WEB-INF/classes/
+
+
+

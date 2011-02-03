@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:gwt="urn:import:com.google.gwt.user.client.ui">
+	
+	<gwt:DockLayoutPanel unit="PX">
+		<gwt:north size="50">
+			<gwt:HTMLPanel styleName="b-app-header">
+				MVP in GWT 2.1 Sample Application
+			</gwt:HTMLPanel>
+		</gwt:north>	
+		
+		<gwt:west size="200">
+			<gwt:HTMLPanel styleName="b-app-navigator">
+				<a id="mail-view" href="#mail:">Mail</a>
+				<a id="contacts-view" href="#contacts:">Contacts</a>
+				<a id="tasks-view" href="#tasks:">Tasks</a>
+			</gwt:HTMLPanel>
+		</gwt:west>
+		
+		<gwt:center>
+			<gwt:SimplePanel styleName="b-app-content" ui:field="appContent" />
+		</gwt:center>
+	</gwt:DockLayoutPanel>
+	
+</ui:UiBinder>
+ 

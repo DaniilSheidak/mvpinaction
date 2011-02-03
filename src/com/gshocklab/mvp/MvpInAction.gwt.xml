@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='mvpinaction'>
+	<inherits name='com.google.gwt.user.User' />
+    <inherits name="com.google.gwt.activity.Activity"/>
+    <inherits name="com.google.gwt.place.Place"/>
+    
+	<entry-point class='com.gshocklab.mvp.client.MvpInActionEntryPoint' />
+    
+    <replace-with class="com.gshocklab.mvp.client.ClientFactoryImpl">
+        <when-type-is class="com.gshocklab.mvp.client.ClientFactory" />
+    </replace-with>
+    
+	<source path='client' />
+</module>
